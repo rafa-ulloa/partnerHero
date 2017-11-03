@@ -8,18 +8,26 @@
   <meta name="description" content="PartnerHero Live assessment">
   <meta name="author" content="Rafael Ulloa">
 
+  <link rel="stylesheet" href="https://foundation.zurb.com/assets/css/app.css?hash=34e173f9e346b41646356b2e27f77d4a">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script src="script.js"></script>
-
-   <style>
-	#movieContainer{display:none;}
-</style>
-
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
   <![endif]-->
+<style>
+#movieContainer{display:none;}
+</style>
 </head>
 
 <body>
-  
+  <h1 id="loading">Loading...</h1>
+<div id="movieContainer">
+<h1 id="title"></h1>
+<h2 id="score">Rating: <span id="scoreNumber"></span></h2>
+<h3>Your Ranking:</h3>
+<div id="yourRankingContainer">
+</div>
+</div>
 </body>
 </html>
